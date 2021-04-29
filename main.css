@@ -1,7 +1,12 @@
-#home {
+#home {    
     text-align: center;
     font-size: 100px;
-    color: rainbow;
+    color: orchid;
+}
+.rainbow {
+    background-image: linear-gradient (to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+
 }
 #navbar {
     position: fixed;
