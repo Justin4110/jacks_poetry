@@ -1,0 +1,57 @@
+#home {
+    text-align: center;
+    font-size: 100px;
+    color: brown;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color:black;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    color: red;
+    
+}
+.sidenav a:hover {
+    color: rgb(4, 54, 255);
+}
+#nav-head {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+#main {
+    margin-left: 250px;
+    background-color:white;
+}
+ul {
+    list-style-type: none;
+}
+@media screen and (max-height: 500px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+@viewport {
+    width: 100vw;
+}
+#p1 {
+    font-size: 20px;
+}
+#h2 {
+    color: red;
+}
