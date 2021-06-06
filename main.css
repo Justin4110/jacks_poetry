@@ -1,14 +1,13 @@
+#main {
+    background-color: cadetblue;
+    color: greenyellow
+} 
 #home {    
     text-align: center;
     font-size: 100px;
     color: orchid;
 }
-.rainbow {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-  -webkit-background-clip: text;
-}
 
-}
 #navbar {
     position: fixed;
     top: 0;
@@ -59,5 +58,33 @@ ul {
     font-size: 20px;
 }
 #h2 {
+    color: red;
+}
+#t1 {
+    resize: none;
+    background-color: cornflowerblue;
+}
+#t2 {
+    resize: none;
+    background-color: red;
+}
+#t3 {
+    resize: none;
+    background-color: cornflowerblue;
+}
+#t4 {
+    resize: none;
+    background-color: red;
+}
+#t1-label {
+    color: red;
+}
+#t2-label {
+    color: red;
+}
+#t3-label {
+    color: red;
+}
+#t4-label {
     color: red;
 }
